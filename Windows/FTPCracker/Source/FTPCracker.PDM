@@ -1,0 +1,105 @@
+[Root]
+Most Recent Package=FTP Cracker
+
+
+[Package|FTP Cracker|FTPCracker]
+Icon1=FTPCracker.exe
+Title1=FTPCracker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|FTP Cracker|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\User\My Documents\Package
+
+[Package|FTP Cracker|Configure DAO ISAMs]
+Applicable=No
+
+[Package|FTP Cracker|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|FTP Cracker|Files Found]
+
+[Package|FTP Cracker|Files Released]
+
+[Package|FTP Cracker|Missing Dependency Information]
+
+[Package|FTP Cracker|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=
+
+[Package|FTP Cracker|Files Added]
+
+[Package|FTP Cracker|Files Removed]
+
+[Package|FTP Cracker|Files In Project]
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM32\oleaut32.dll=Yes
+C:\WINDOWS\SYSTEM32\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM32\asycfilt.dll=Yes
+C:\WINDOWS\SYSTEM32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\User\My Documents\FTPCracker\Source\FTPCracker.exe=Yes
+
+[Package|FTP Cracker|Configure Registry Files]
+Applicable=No
+
+[Package|FTP Cracker|Configure Remote Servers]
+Applicable=No
+
+[Package|FTP Cracker|Install Locations]
+C:\Documents and Settings\User\My Documents\FTPCracker.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\User\My Documents\Source\FTPCracker.exe=$(AppPath)
+C:\Documents and Settings\User\My Documents\FTPCracker\Source\FTPCracker.exe=$(AppPath)
+
+[Package|FTP Cracker|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\User\My Documents\FTPCracker.exe=No
+C:\Documents and Settings\User\My Documents\Source\FTPCracker.exe=No
+C:\Documents and Settings\User\My Documents\FTPCracker\Source\FTPCracker.exe=No
+
+[Package|FTP Cracker|Distribution]
+Type=single
+Size=
+Title=FTP Password Cracker
+
+[Package|FTP Cracker|IconGroups]
+Group0=FTP Password Cracker
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|FTP Cracker|FTP Password Cracker]
+Icon1=FTPCracker.exe
+Title1=FTP Password Cracker
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|FTP Cracker|Package]
+PackageFolder=C:\Documents and Settings\User\My Documents\Package
+ProjectFolder=C:\Documents and Settings\User\My Documents\FTPCracker\Source
+ServerSideCab=
+File1=C:\Documents and Settings\User\My Documents\Package\setup.exe
+File2=C:\Documents and Settings\User\My Documents\Package\Setup.Lst
+File3=C:\Documents and Settings\User\My Documents\Package\FTPCracker.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
